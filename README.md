@@ -1,6 +1,6 @@
 # LLM-Zoomcamp-Homeworks
-How do I get these answers? -> Check the notebook.ipynb file
-Whare is the questions? -> https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2026
+- How do I get these answers? -> Check the notebook.ipynb file
+- Whare is the questions? -> https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2026
 
 ## 01-agentic-rag Homework Answer
 1. How many lesson pages (1 point) -> 72
