@@ -27,9 +27,12 @@
 6. For production workflows requiring deterministic, repeatable results with strict compliance requirements, which approach is most appropriate? (1 point)
 
 ## 04-evaluation
-1. When generating questions for the first 3 lesson pages, what is the average number of input tokens across these 3 calls? (1 point)
-2. After running text_search for the first ground truth question, what is the filename of the first result? (1 point)
-3. After running vector_search for the same question, what is the filename of the first result? (1 point)
-4. After evaluating text_search on the ground truth, what is the Hit Rate? (1 point)
-5. After evaluating vector_search on the ground truth, what is the MRR? (1 point)
-6. When evaluating hybrid_search for k values 1, 50, 100, and 200, which k gives the best MRR? (1 point)
+1. When generating questions for the first 3 lesson pages, what is the average number of input tokens across these 3 calls? (1 point) -> 
+AI Copilot has access to current Kestra plugin documentation 
+2. After running text_search for the first ground truth question, what is the filename of the first result? (1 point) -> Vague, generic, or fabricated — the model guesses from training data 
+3. After running vector_search for the same question, what is the filename of the first result? (1 point) 
+200-400 tokens
+4. After evaluating text_search on the ground truth, what is the Hit Rate? (1 point) -> About the same (within 20%) 
+5. After evaluating vector_search on the ground truth, what is the MRR? (1 point) -> About the same (within 20%) 
+6. When evaluating hybrid_search for k values 1, 50, 100, and 200, which k gives the best MRR? (1 point) -> 
+Use traditional task-based workflows for predictability and auditability 
