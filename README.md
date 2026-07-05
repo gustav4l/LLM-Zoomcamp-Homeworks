@@ -51,14 +51,14 @@
 ## 04-evaluation Homework Answer
 
 1. When generating questions for the first 3 lesson pages, what is the average number of input tokens across these 3 calls? (1 point)
-   - *[Belum diisi]*
+   - 1400
 2. After running text_search for the first ground truth question, what is the filename of the first result? (1 point)
-   - *[Belum diisi]*
+   - 01-agentic-rag/lessons/03-rag.md 
 3. After running vector_search for the same question, what is the filename of the first result? (1 point)
-   - *[Belum diisi]*
+   - 01-agentic-rag/lessons/01-intro.md 
 4. After evaluating text_search on the ground truth, what is the Hit Rate? (1 point)
-   - *[Belum diisi]*
+   - 0.76
 5. After evaluating vector_search on the ground truth, what is the MRR? (1 point)
-   - *[Belum diisi]*
+   - 0.55
 6. When evaluating hybrid_search for k values 1, 50, 100, and 200, which k gives the best MRR? (1 point)
-   - *[Belum diisi]*
+   - 1
